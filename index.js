@@ -9,5 +9,5 @@ app.get("/hi", (req, res) => {
 
 app.listen(7000, () => {
   console.log("Server is running on http://localhost:7000");
-  console.log("Press Ctrl+C to stop");
+  for (var i = 0; i < 10; i++) {}
 });
