@@ -7,6 +7,6 @@ app.get("/hi", (req, res) => {
   res.send("Hello World");
 });
 
-app.listen(70000, () => {
-  console.log("Server is running on http://localhost:3000");
+app.listen(7000, () => {
+  console.log("Server is running on http://localhost:7000");
 });
