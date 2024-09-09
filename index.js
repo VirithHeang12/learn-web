@@ -9,5 +9,5 @@ app.get("/hi", (req, res) => {
 
 app.listen(7000, () => {
   console.log("Server is running on http://localhost:7000");
-  var age = 10;
+  var age = "10";
 });
